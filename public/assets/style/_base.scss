@@ -1,0 +1,15 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: var(--c-black);
+	color:var(--c-blond);
+	font-family: 'Roboto';
+	font-weight: 400;
+}
+
+.none {
+	display: none !important;
+}
+
