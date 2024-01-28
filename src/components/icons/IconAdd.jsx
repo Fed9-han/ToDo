@@ -1,4 +1,3 @@
-import './style.scss'
 export const IconAdd = () => {
 	return (
 		<svg
