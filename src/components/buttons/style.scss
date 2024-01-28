@@ -1,0 +1,78 @@
+.yes-no {
+	font-size: 10px;
+	font-weight: 400;
+
+	width: 64px;
+	height: 24px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+
+	border-radius: 4px;
+	border: 1px solid var(--c-passive);
+	background-color: var(--c-bginputs);
+	transition: border 0.17s ease-in-out, color 0.17s ease-in-out,
+		background-color 0.02s ease-in-out;
+
+	&:active {
+		background-color: var(--c-black);
+	}
+	&:hover {
+		border: 1px solid var(--c-accent);
+		color: var(--c-white);
+	}
+}
+
+.btn-add {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 70px;
+	height: 70px;
+
+	border-radius: 8px;
+	border: 2px solid var(--c-accent);
+	background-color: var(--c-black);
+
+	transition: transform 0.1s ease;
+
+	> .icon-add {
+		fill: var(--c-accent);
+		transition: transform 0.17s ease;
+	}
+	&:hover {
+		background-color: var(--c-grey);
+		.icon-add {
+			transform: rotate(90deg);
+		}
+	}
+}
+
+.btn-dell {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 32px;
+	height: 32px;
+
+	border-radius: 5px;
+	border: 2px solid var(--c-passive);
+	background-color: var(--c-black);
+
+	> .icon-dell {
+		fill: var(--c-passive);
+		&:hover {
+			fill: var(--c-accent);
+		}
+	}
+
+	&:hover {
+		background-color: var(--c-grey);
+		border-color: var(--c-accent);
+		.icon-dell {
+			fill: var(--c-accent);
+		}
+	}
+}
