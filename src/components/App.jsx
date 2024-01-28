@@ -1,16 +1,20 @@
-import ButtonYes from './buttons/ButtonYes'
-import ButtonNo from './buttons/ButtonNo'
+
+import ButtonText from './buttons/ButtonText'
 import ButtonAdd from './buttons/ButtonAdd'
 import ButtonDell from './buttons/ButtonDell'
+
 
 
 function App() {
 	return (
 		<div className='container'>
-			<ButtonYes />
-			<ButtonNo />
+			<ButtonText value='Да' />
+			<ButtonText value='Нет' />
+			<ButtonText value='Сохранить' />
+			<ButtonText value='Отмена' />
 			<ButtonAdd />
 			<ButtonDell />
+
 
 		</div>
 	)
