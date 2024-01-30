@@ -35,11 +35,11 @@
 	border: 2px solid var(--c-accent);
 	background-color: var(--c-black);
 
-	transition: transform 0.1s ease;
+	transition: transform 0.2s ease;
 
 	> .icon-add {
 		fill: var(--c-accent);
-		transition: transform 0.17s ease;
+		transition: transform 0.5s ease;
 	}
 	&:hover {
 		background-color: var(--c-grey);
@@ -61,7 +61,10 @@
 	border: 2px solid var(--c-passive);
 	background-color: var(--c-black);
 
+	transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+
 	> .icon-dell {
+		transition: fill 0.2s ease-in-out;
 		fill: var(--c-passive);
 		&:hover {
 			fill: var(--c-accent);
@@ -88,8 +91,10 @@
 	border-radius: 6px;
 	border: 1px solid var(--c-passive);
 	background-color: var(--c-black);
+	transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 
 	> .icon-share {
+		transition: fill 0.2s ease-in-out;
 		fill: var(--c-icon);
 		&:hover {
 			fill: var(--c-accent);
@@ -116,8 +121,10 @@
 	border-radius: 6px;
 	border: 1px solid var(--c-passive);
 	background-color: var(--c-black);
+	transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 
 	> .icon-edit {
+		transition: fill 0.2s ease-in-out;
 		fill: var(--c-icon);
 		&:hover {
 			fill: var(--c-accent);
@@ -133,8 +140,6 @@
 	}
 }
 .btn-info {
-
-
 	width: 36px;
 	height: 36px;
 
@@ -146,6 +151,8 @@
 	font-weight: 700;
 	line-height: 112%;
 	text-align: center;
+	transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out,
+		color 0.2s ease-in-out;
 
 	&:hover {
 		background-color: var(--c-grey);
@@ -154,3 +161,30 @@
 	}
 }
 
+.btn-social {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 46px;
+	height: 46px;
+
+	border-radius: 50%;
+	border: 2px solid var(--c-bgsocial);
+	background-color: var(--c-bgsocial);
+	transition: border 0.2s ease-in-out;
+
+	> .social-icons {
+		transition: fill 0.2s ease-in-out;
+		fill: var(--c-icon);
+		&:hover {
+			fill: var(--c-accent);
+		}
+	}
+	&:hover {
+		border: 2px solid var(--c-accent);
+		> .social-icons {
+			fill: var(--c-accent);
+		}
+	}
+}

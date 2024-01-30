@@ -5,6 +5,8 @@ import ButtonDell from './buttons/ButtonDell'
 import ButtonShare from './buttons/ButtonShare'
 import ButtonEdit from './buttons/ButtonEdit'
 import ButtonInfo from './buttons/ButtonInfo'
+import ButtonSocial from './buttons/ButtonSocial'
+
 
 
 
@@ -20,6 +22,8 @@ function App() {
 			<ButtonShare />
 			<ButtonEdit />
 			<ButtonInfo />
+			<ButtonSocial />
+
 
 
 		</div>
