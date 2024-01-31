@@ -1,4 +1,4 @@
-import { IconShare } from '../icons/IconShare'
+import { IconShare } from '../icons/Icons'
 import './style.scss'
 
 export default function ButtonShare() {

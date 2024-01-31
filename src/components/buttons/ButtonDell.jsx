@@ -1,4 +1,4 @@
-import { IconDell } from '../icons/IconDell'
+import { IconDell } from '../icons/Icons'
 import './style.scss'
 
 export default function ButtonDell() {

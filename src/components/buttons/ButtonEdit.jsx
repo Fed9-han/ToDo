@@ -1,4 +1,4 @@
-import { IconEdit } from '../icons/IconEdit'
+import { IconEdit } from '../icons/Icons'
 import './style.scss'
 
 export default function ButtonEdit() {

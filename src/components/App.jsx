@@ -1,13 +1,10 @@
-
-import ButtonText from './buttons/ButtonText'
 import ButtonAdd from './buttons/ButtonAdd'
 import ButtonDell from './buttons/ButtonDell'
-import ButtonShare from './buttons/ButtonShare'
 import ButtonEdit from './buttons/ButtonEdit'
 import ButtonInfo from './buttons/ButtonInfo'
-import ButtonSocial from './buttons/ButtonSocial'
-
-
+import ButtonShare from './buttons/ButtonShare'
+import {ButtonCopy, ButtonVk, ButtonFacebook, ButtonTg, ButtonWhatsApp, } from './buttons/ButtonArr'
+import ButtonText from './buttons/ButtonText'
 
 
 function App() {
@@ -22,10 +19,11 @@ function App() {
 			<ButtonShare />
 			<ButtonEdit />
 			<ButtonInfo />
-			<ButtonSocial />
-
-
-
+			<ButtonCopy/>
+			<ButtonVk/>
+			<ButtonTg/>
+			<ButtonWhatsApp/>
+			<ButtonFacebook/>
 		</div>
 	)
 }

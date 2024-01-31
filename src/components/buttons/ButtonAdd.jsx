@@ -1,4 +1,4 @@
-import { IconAdd } from '../icons/IconAdd'
+import { IconAdd } from '../icons/Icons'
 import './style.scss'
 
 export default function ButtonAdd() {
