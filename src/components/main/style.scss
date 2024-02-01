@@ -1,0 +1,33 @@
+.null {
+  padding: 20px 0;
+	text-align: center;
+	&__title {
+		position: relative;
+		font-size: 24px;
+		color: var(--c-white);
+    line-height: 1;
+
+		&::before {
+			content: '';
+			position: absolute;
+			height: 3px;
+			width: 70px;
+			background-color: var(--c-accent);
+			top: -2px;
+			right: 0;
+			transform: translate(-50%, -50%);
+			border-radius: 5px;
+		}
+		&::after {
+			content: '';
+			position: absolute;
+			height: 3px;
+			width: 70px;
+			background-color: var(--c-accent);
+			bottom: -8px;
+			left: 0;
+			transform: translate(50%);
+			border-radius: 5px;
+		}
+	}
+}
