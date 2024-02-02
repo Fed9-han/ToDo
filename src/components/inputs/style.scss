@@ -1,5 +1,4 @@
 .input {
-	max-width: 267px;
 	width: 100%;
 	padding: 7px 12px;
 	background-color: var(--c-bginputs);
@@ -19,5 +18,34 @@
 		&::placeholder {
 			opacity: 1;
 		}
+	}
+}
+.text-area {
+	width: 100%;
+	height: 324px;
+	padding: 8px 9px;
+	background-color: var(--c-bginputs);
+	border: 1px solid var(--c-accent);
+	border-radius: 4px;
+	font-size: 14px;
+	resize: none;
+
+	&::placeholder {
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 129%;
+		color: var(--c-blond);
+		opacity: 0.6;
+	}
+
+	&:hover {
+		&::placeholder {
+			opacity: 1;
+		}
+	}
+	&:focus-visible {
+		border: 1px solid var(--c-accent);
+		outline-offset: none;
+		outline: none;
 	}
 }

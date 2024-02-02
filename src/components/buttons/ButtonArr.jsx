@@ -1,6 +1,11 @@
-import { IconCopy, IconFacebook, IconVk, IconWhatsApp, IconTg } from '../icons/Icons'
+import {
+	IconCopy,
+	IconFacebook,
+	IconTg,
+	IconVk,
+	IconWhatsApp,
+} from '../icons/Icons'
 import './style.scss'
-
 
 function ButtonCopy() {
 	return (
@@ -38,4 +43,4 @@ function ButtonFacebook() {
 	)
 }
 
-export {ButtonCopy, ButtonVk, ButtonTg, ButtonWhatsApp, ButtonFacebook}
+export { ButtonCopy, ButtonFacebook, ButtonTg, ButtonVk, ButtonWhatsApp }

@@ -5,11 +5,10 @@ export default function WindowNote() {
 		<article className='note'>
 			<div className='note__content'>
 				<div className='note__text'>
-					<h2 className='note__title'>
-						Тема заметки...
-					</h2>
+					<h2 className='note__title'>Далеко-далеко за словесными горами в стране.</h2>
 					<p className='note__description'>
-						Описание заметки...
+						Далеко-далеко за словесными горами в стране гласных и согласных
+						живут рыбные тексты!
 					</p>
 				</div>
 				<div className='note__btn'>
