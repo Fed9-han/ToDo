@@ -1,16 +1,12 @@
 import Header from './header/Header'
-import WindowEdit from './windowEdit/WindowEdit'
-import WindowNote from './windowNote/WindowNote'
+import Main from './main/Main'
 
 function App() {
-
-
 	return (
 		<div className='layout container'>
 			<Header />
-			{/* <Main/> */}
+			<Main />
 			{/* <WindowEdit /> */}
-			<WindowNote/>
 		</div>
 	)
 }
